@@ -1,19 +1,48 @@
 /* header nav */
+.flex-container {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
 
 .nav1 {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-grow: 1;
 }
 
 .nav1 h4 {
   padding-left: 10px;
-  font-weight: bold;
   color: #66CDAA;
 }
 
 .nav2 {
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
   justify-content: flex-end;
+}
+
+.nav2 a {
+  padding: 25px 40px 0px 0px;
+  color: black;
+}
+
+/* body */
+
+.flex-body {
+  display: flex;
+}
+
+.section {
+  border: 0.1px solid black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
 }
