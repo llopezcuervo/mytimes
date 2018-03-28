@@ -1,0 +1,19 @@
+/* header nav */
+
+.nav1 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.nav1 h4 {
+  padding-left: 10px;
+  font-weight: bold;
+  color: #66CDAA;
+}
+
+.nav2 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
