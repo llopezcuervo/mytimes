@@ -33,6 +33,7 @@
 
 .flex-body {
   display: flex;
+  justify-content: space-between;
 }
 
 .section {
