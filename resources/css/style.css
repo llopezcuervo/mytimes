@@ -11,6 +11,8 @@
   display: flex;
   justify-content: flex-start;
   flex-grow: 1;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 .nav1 h4 {
@@ -21,6 +23,8 @@
 .nav2 {
   display: flex;
   justify-content: flex-end;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
 .nav2 a {
@@ -30,10 +34,14 @@
 
 /* body */
 
+body {
+  padding: 40px 30px;
+}
+
 .flex-body {
   display: flex;
   justify-content: space-between;
-  border: 0.1px solid black;
+  border: 0.1px hidden black;
 }
 
 .flex-body p {
@@ -112,6 +120,8 @@
 .flex-container3 {
   display: flex;
   align-items: space-between;
+  height: 300px;
+  padding-bottom: 30px;
 }
 
 .column.large {
@@ -128,21 +138,29 @@
 
 .bites {
  background-color: WhiteSmoke;
+ margin-top: 30px;
 }
 
 .bites p {
   font-family: Verdana;
   font-size: 12px;
+  font-weight: normal;
   color: DimGray;
   border-bottom: 1px solid black;
-  padding-bottom: 4px;
+  padding: 10px;
+}
+
+.sectionx {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* footer section */
 
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -168,4 +186,8 @@
 .footer
 .nav3 a {
   color: black;
+}
+
+.copyright {
+  flex-direction: row;
 }
