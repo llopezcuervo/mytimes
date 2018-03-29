@@ -159,35 +159,30 @@ body {
 /* footer section */
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  background-color: MediumAquamarine;
-  margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 80px;
 }
 
-.footer
-.title {
-  font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
+.footer .title {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
 
-.footer
-.nav3 {
-  padding: 0px 40px 0px 30px;
+.footer .nav3 {
+    padding: 0px 40px 0px 30px;
 }
 
-.footer
-.nav3 a {
-  color: black;
-}
-
-.copyright {
-  flex-direction: row;
+.title-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
