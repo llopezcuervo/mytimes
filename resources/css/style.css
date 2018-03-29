@@ -34,10 +34,77 @@
 .flex-body {
   display: flex;
   justify-content: space-between;
+  border: 0.1px solid black;
 }
 
-.section {
+.flex-body p {
+ font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+
+.section1 {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
   border: 0.1px solid black;
+}
+
+.section1 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.section2 {
+  display: flex;
+  background-image: url("../images/img-story-2.png");
+  border: 0.1px solid black;
+}
+
+.section2 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.section3 {
+  display: flex;
+  background-image: url("../images/img-story-3.png");
+  border: 0.1px solid black;
+}
+
+.section3 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.section4 {
+  display: flex;
+  background-image: url("../images/img-story-1.png");
+  border: 0.1px solid black;
+}
+
+.section4 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.section img {
+  padding: 2px;
+}
+
+.flex-container2 {
+  display: flex;
+}
+
+.flex-container3 {
+  display: flex;
 }
 
 .column.large {
